@@ -18,7 +18,7 @@ const styles = {
         display: 'flex',
         maxWidth: '100%',
         margin: '0%',
-        padding: '0%',
+        padding: '2%',
         justifyContent: 'space-between',
         alignItems: 'center',
         backgroundColor: 'pink',

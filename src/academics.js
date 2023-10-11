@@ -1,26 +1,36 @@
-function Academics () {
-    return (
-        <div className="academic-div">
-                Academics
-                <h4>MASTER OF SCIENCE</h4>
-                <table>
-                    <tr>
-                        <td>Master Of Science in Computer Science</td>
-                        <td>Feb 2021-Dec 2022</td>
-                    </tr>
-                    <tr>
-                        <td>Stony Brook University</td>
-                        <td>Stony Brook, NY</td>
-                    </tr>
-                    <tr>
-                        <td>Bachelor of Engineering</td>
-                        <td></td>
-                    </tr>
-                </table>
-        </div>
-        
+import CustomTable from "./CustomTable";
 
+function Academics () {
+
+    const data1 = [
+        ['Master Of Science in Computer Science', '2021 - 2022'],
+        ['Stony Brook University', 'Stony Brook, NY']
+    ];
+
+    const data2 = [
+        ['B.E. in Electronics and Communication', '2013 - 2017'],
+        ['Visvesvarya Technological University', 'Bangalore']
+    ]
+
+    return (
+        <div className="academic-div" style={styles.div}>
+                
+                <h1>MASTER OF SCIENCE</h1>
+                <CustomTable data={ data1 } />
+                
+                <h1>Bachelor of Engineering</h1>
+                <CustomTable data={ data2} />
+        </div>
     );
+}
+
+const styles = {
+    div : {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+    }
 }
 
 export default Academics;
