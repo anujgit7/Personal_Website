@@ -1,12 +1,12 @@
 import './App.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 import Menu from './menu.js';
 import Home from './home.js';
 import Academics from './academics';
 import Projects from './Projects';
 import Skills from './Skills';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 
