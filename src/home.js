@@ -9,12 +9,12 @@ function Home () {
                 <h1 style={{fontFamily: "'Comic Sans MS', 'Comic Sans', 'cursive'", backgroundColor: '#F0FFF0', color: '#4B0082', textAlign: 'center'}}> WELCOME </h1>
                 <p style={styles.p}>
                 I hope you are doing well and thank you for taking time out 
-                to know me a little better.<br />
-                I am a Full Stack Developer with a keen interest in DSA and web development.<br />
-                I decided to build this personal website to gain hands on experience 
-                in react.js <br />
-                Building this website has been a great learning curve for me and I hope 
-                you enjoy the experience too.
+                to know me a little better.<br /><br />
+                I am a Full Stack Developer with a keen interest in Data Structures, 
+                Algorithms and web development.<br />
+                I also have experience in Data Science, Machine Learning 
+                and Data Analytics.<br />
+                To know more about me, dive in!!
                 <br /><br />
                 Regards<br />
                 Anuj Johri
