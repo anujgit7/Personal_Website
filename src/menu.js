@@ -6,7 +6,8 @@ function Menu () {
             <ul style={styles.menu}>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/Academics'>Academics</Link></li>
-                <li></li>
+                <li><Link to='/Skills'>Skills</Link></li>
+                <li><Link to='/Projects'>Projects</Link></li>
             </ul>
         </nav>
     );

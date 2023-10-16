@@ -1,0 +1,18 @@
+.ProfileApp {
+    max-width: 200px;
+    height: auto;
+}
+
+/* .parent-container {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

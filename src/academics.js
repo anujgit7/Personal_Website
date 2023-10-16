@@ -13,12 +13,12 @@ function Academics () {
     ]
 
     return (
-        <div className="academic-div" style={styles.div}>
+        <div style={styles.div}>
                 
-                <h1>MASTER OF SCIENCE</h1>
+                <h1 style={{margin: '2%'}}>MASTER OF SCIENCE</h1>
                 <CustomTable data={ data1 } />
                 
-                <h1>Bachelor of Engineering</h1>
+                <h1 style={{margin: '2%'}}>BACHELOR OF ENGINEERING</h1>
                 <CustomTable data={ data2} />
         </div>
     );
@@ -26,6 +26,7 @@ function Academics () {
 
 const styles = {
     div : {
+        padding: '10%',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

@@ -12,7 +12,7 @@ const CustomTable = ({ data }) => {
     console.log(tableRows)
 
   return (
-    <table style={{borderCollapse: 'separate', borderSpacing: '10px 5px'}}>
+    <table style={{margin: '2%', borderCollapse: 'separate', borderSpacing: '10px 5px'}}>
         <tbody>{ tableRows }</tbody>
     </table>
   )
