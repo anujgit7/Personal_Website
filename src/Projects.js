@@ -19,7 +19,7 @@ const Projects = () => {
       </div>
       <div className='container'>
         <h1 style={{textAlign: 'center'}}>Fibonacci Numbers Generator </h1>
-        <img src={fib} alt='App Demo'></img>
+        <img src={fib} className='project-image' alt='App Demo'></img>
         <p style={{textAlign: 'center'}}>
         <span style={{fontStyle:'italic'}}>Developed a web application using React and Django 
         that generates the first n Fibonacci numbers based on user input.</span><br/>
@@ -31,7 +31,7 @@ const Projects = () => {
       </div>
       <div className='container'>
         <h1 style={{textAlign: 'center'}}>Interactive Data Visualization Dashboard</h1>
-        <img src={Dashboard} alt='App Demo'></img>
+        <img src={Dashboard} className='project-image' alt='App Demo'></img>
         <p style={{textAlign: 'center'}}>
         <span style={{fontStyle:'italic'}}>Interactive Dashboard for visualizing and finding 
         interesting facts and information from high dimensional 
