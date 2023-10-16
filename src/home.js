@@ -23,13 +23,13 @@ function Home () {
             </div>
 
             <div>
-                <div style={{display:'grid', gridTemplateColumns: 'repeat(1, 1fr)', gridTemplateRows: '1fr 1fr'}}>
+                <div style={{maxHeight: '100%', display:'grid', gridTemplateColumns: 'repeat(1, 1fr)'}}>
                     
                     <div style={styles.div1}>
                         <img src={IMG_3559} alt={'Profile Photo'} style={styles.img}></img>
                     </div>
                     
-                    <div style={{...styles.div1, flexDirection: 'column'}}>
+                    <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
             
                         <h4>Quick Links</h4>
             
@@ -65,7 +65,7 @@ const styles = {
         gridTemplateColumns: 'repeat(2, 1fr)',
         gridGap: '2%',
         padding: '5%',
-        height: '100vh',
+        // height: '100vh',
     },
 
     container: {
@@ -73,6 +73,8 @@ const styles = {
     },
 
     div1 : {
+        maxWidth: '100%',
+        maxHeight: '100%',
         margin: '5%',
         display: 'flex',
         justifyContent: 'center',
@@ -89,8 +91,8 @@ const styles = {
 
     img : {
         maxWidth: '60%',
-        aspectRatio: '1/1',
-        objectFit: 'cover',
+        // aspectRatio: '1/1',
+        // objectFit: 'cover',
         // margin: '10px',
         // width:'30%',
         // height: '30%',
